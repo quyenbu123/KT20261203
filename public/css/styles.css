@@ -81,6 +81,22 @@ p a:hover{ color:#868e36; text-decoration:none;}
 .service-card{flex:1; background:#fff; border:1px solid #e6d6de; padding:10px}
 .service-card h3{font:12px/16px Tahoma, sans-serif; color:#868e36; margin-bottom:6px}
 .service-card p{font:10px/14px Tahoma, sans-serif; color:#616161}
+#aboutShop {
+	margin-top: 20px;
+	padding: 12px;
+	background: #f8f8f8;
+	border: 1px solid #e2e2e2;
+}
+
+#aboutShop h2 {
+	font: bold 18px/22px Tahoma, sans-serif;
+	color: #9d1263;
+	margin-bottom: 10px;
+}
+
+#aboutShop p {
+	margin-bottom: 8px;
+}
 
 .clear#end{height:20px}
 
