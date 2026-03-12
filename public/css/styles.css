@@ -53,7 +53,7 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 /* HEADER */
 
-#header{width:685px; height:238px; background: url(../images/b_header.jpg) 0 0 no-repeat; position:relative;}
+#header{width:685px; height:260px; background: url(./images/b_header.jpg) center center no-repeat; position:relative; background-size:cover;}
 
 #header img#slogan2{position:absolute; top:76px; left:19px}
 
@@ -66,8 +66,8 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 #welcome h2{height:40px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:8px}
 #welcome img{margin:0 0 16px 4px }
-#welcome p{margin-left:4px; margin-right:12px}
-#welcome p.headline{margin-bottom:15px}
+#welcome p{margin-left:6px; margin-right:16px; text-align:justify}
+#welcome p.headline{margin-bottom:18px; color:#7d9440}
 
 #featured h2{height:38px; position:relative; background:url(../images/h_prod.gif) 0 0 no-repeat; margin-bottom:6px}
 #featured p.headline{margin-bottom:5px}
@@ -77,10 +77,11 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 #services{clear:both; margin:18px 19px 24px; padding:14px; background:#fff7fb; border:1px solid #f0d7e4}
 #services h2{font:16px/20px Tahoma, sans-serif; color:#7a1d4b; margin-bottom:12px}
-.service-grid{display:flex; gap:12px}
-.service-card{flex:1; background:#fff; border:1px solid #e6d6de; padding:10px}
+.service-grid{display:flex; gap:12px; flex-wrap:wrap}
+.service-card{flex:1; background:#fff; border:1px solid #e6d6de; padding:10px; box-shadow:0 1px 0 rgba(0,0,0,0.05); transition:box-shadow 0.2s ease, transform 0.2s ease}
 .service-card h3{font:12px/16px Tahoma, sans-serif; color:#868e36; margin-bottom:6px}
 .service-card p{font:10px/14px Tahoma, sans-serif; color:#616161}
+.service-card:hover{box-shadow:0 3px 8px rgba(0,0,0,0.12); transform:translateY(-1px)}
 #aboutShop {
 	margin-top: 20px;
 	padding: 12px;
