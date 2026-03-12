@@ -75,6 +75,13 @@ p a:hover{ color:#868e36; text-decoration:none;}
 .featItem#i03{margin-right:0}
 .featItem img{margin-bottom:15px}
 
+#services{clear:both; margin:18px 19px 24px; padding:14px; background:#fff7fb; border:1px solid #f0d7e4}
+#services h2{font:16px/20px Tahoma, sans-serif; color:#7a1d4b; margin-bottom:12px}
+.service-grid{display:flex; gap:12px}
+.service-card{flex:1; background:#fff; border:1px solid #e6d6de; padding:10px}
+.service-card h3{font:12px/16px Tahoma, sans-serif; color:#868e36; margin-bottom:6px}
+.service-card p{font:10px/14px Tahoma, sans-serif; color:#616161}
+
 .clear#end{height:20px}
 
 /* footer */
