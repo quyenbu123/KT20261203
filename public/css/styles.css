@@ -99,6 +99,44 @@ p a:hover{ color:#868e36; text-decoration:none;}
 	margin-bottom: 8px;
 }
 
+#contactForm {
+	width: 436px;
+	margin: 0 0 30px 0;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #ebd8e2;
+	box-sizing: border-box;
+}
+
+#contactForm h2 {
+	font: bold 22px/26px Tahoma, sans-serif;
+	color: #9d1263;
+	margin-bottom: 15px;
+}
+
+#contactForm input,
+#contactForm textarea {
+	width: 100%;
+	margin-bottom: 12px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	font: 12px Tahoma, sans-serif;
+	box-sizing: border-box;
+}
+
+#contactForm textarea {
+	height: 100px;
+	resize: none;
+}
+
+#contactForm button {
+	padding: 10px 20px;
+	background: #9d1263;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
 .clear#end{height:20px}
 
 /* footer */
